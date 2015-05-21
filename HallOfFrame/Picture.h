@@ -12,7 +12,9 @@
 
 @interface Picture : NSObject
 
-@property UIColor *frameColor;
-@property UIImage *image;
+@property UIColor *frameBackgroundColor;
+@property NSString *image;
+
+-(instancetype)initWithImageName:(NSString *)image frameBackgroundColor:(UIColor *)color;
 
 @end

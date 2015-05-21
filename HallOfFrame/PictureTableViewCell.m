@@ -11,12 +11,5 @@
 
 @implementation PictureTableViewCell
 
-//- (IBAction)onDrinkItemTapped:(UIButton *)sender {
-//
-//    [self.delegate drinkTableViewCell:self didSelectImage:sender.imageView.image];
-//}
-
-
-
 
 @end

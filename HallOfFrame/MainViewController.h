@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FeedViewController : UIViewController
+@interface MainViewController : UIViewController
 
-@property NSArray *pictures;
-@property UITableView *tableView;
+@property NSMutableArray *pictures;
+@property NSIndexPath *selectedIndexPath;
+
 
 @end
 

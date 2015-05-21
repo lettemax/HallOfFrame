@@ -10,5 +10,14 @@
 
 @implementation Picture
 
+-(instancetype)initWithImageName:(NSString *)image frameBackgroundColor:(UIColor *)color
+{
+    self = [super init];
+    self.image = image;
+    self.frameBackgroundColor = color;
+    return self;
+}
+
+
 
 @end

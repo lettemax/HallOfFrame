@@ -8,15 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-//@protocol PictureTableViewCellDelegate <NSObject>
-//
-//- (void) pictureTableViewCell:(id)cell didSelectImage:(UIImage *)image;
-//
-//@end
+@protocol PictureTableViewCellDelegate <NSObject>
+
+@end
 
 @interface PictureTableViewCell : UITableViewCell
 
-//@property id <PictureTableViewCellDelegate> delegate;
+@property id <PictureTableViewCellDelegate> delegate;
 
 @property (weak, nonatomic) IBOutlet UIImageView* pictureView;
 
