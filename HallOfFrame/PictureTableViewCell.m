@@ -11,10 +11,12 @@
 
 @implementation PictureTableViewCell
 
-//- (IBAction)onFoodItemTapped:(UIButton *)sender {
+//- (IBAction)onDrinkItemTapped:(UIButton *)sender {
 //
-//    [self.delegate foodTableViewCell:self didSelectImage:sender.imageView.image];
-//    
+//    [self.delegate drinkTableViewCell:self didSelectImage:sender.imageView.image];
 //}
+
+
+
 
 @end

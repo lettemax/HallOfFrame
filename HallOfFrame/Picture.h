@@ -9,10 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+
 @interface Picture : NSObject
 
-@property UIImage *image;
 @property UIColor *frameColor;
+@property UIImage *image;
 
 @end
-

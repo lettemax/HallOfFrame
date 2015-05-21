@@ -15,7 +15,8 @@
 		CEE6D8621B0D32B4002E2698 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE6D8601B0D32B4002E2698 /* LaunchScreen.xib */; };
 		CEE6D86E1B0D32B4002E2698 /* HallOfFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE6D86D1B0D32B4002E2698 /* HallOfFrameTests.m */; };
 		CEE6D8791B0D3698002E2698 /* PictureTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE6D8781B0D3698002E2698 /* PictureTableViewCell.m */; };
-		CEE6D87F1B0D44D9002E2698 /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE6D87E1B0D44D9002E2698 /* Picture.m */; };
+		CEE6D8851B0D58FE002E2698 /* ColorButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE6D8841B0D58FE002E2698 /* ColorButtonsViewController.m */; };
+		CEE6D8881B0D5DAB002E2698 /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE6D8871B0D5DAB002E2698 /* Picture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +45,10 @@
 		CEE6D86D1B0D32B4002E2698 /* HallOfFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HallOfFrameTests.m; sourceTree = "<group>"; };
 		CEE6D8771B0D3698002E2698 /* PictureTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureTableViewCell.h; sourceTree = "<group>"; };
 		CEE6D8781B0D3698002E2698 /* PictureTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureTableViewCell.m; sourceTree = "<group>"; };
-		CEE6D87D1B0D44D9002E2698 /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
-		CEE6D87E1B0D44D9002E2698 /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
+		CEE6D8831B0D58FE002E2698 /* ColorButtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorButtonsViewController.h; sourceTree = "<group>"; };
+		CEE6D8841B0D58FE002E2698 /* ColorButtonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorButtonsViewController.m; sourceTree = "<group>"; };
+		CEE6D8861B0D5DAB002E2698 /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
+		CEE6D8871B0D5DAB002E2698 /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +96,10 @@
 				CEE6D8591B0D32B4002E2698 /* FeedViewController.m */,
 				CEE6D8771B0D3698002E2698 /* PictureTableViewCell.h */,
 				CEE6D8781B0D3698002E2698 /* PictureTableViewCell.m */,
-				CEE6D87D1B0D44D9002E2698 /* Picture.h */,
-				CEE6D87E1B0D44D9002E2698 /* Picture.m */,
+				CEE6D8831B0D58FE002E2698 /* ColorButtonsViewController.h */,
+				CEE6D8841B0D58FE002E2698 /* ColorButtonsViewController.m */,
+				CEE6D8861B0D5DAB002E2698 /* Picture.h */,
+				CEE6D8871B0D5DAB002E2698 /* Picture.m */,
 				CEE6D85B1B0D32B4002E2698 /* Main.storyboard */,
 				CEE6D85E1B0D32B4002E2698 /* Images.xcassets */,
 				CEE6D8601B0D32B4002E2698 /* LaunchScreen.xib */,
@@ -229,8 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE6D8881B0D5DAB002E2698 /* Picture.m in Sources */,
+				CEE6D8851B0D58FE002E2698 /* ColorButtonsViewController.m in Sources */,
 				CEE6D85A1B0D32B4002E2698 /* FeedViewController.m in Sources */,
-				CEE6D87F1B0D44D9002E2698 /* Picture.m in Sources */,
 				CEE6D8791B0D3698002E2698 /* PictureTableViewCell.m in Sources */,
 				CEE6D8571B0D32B4002E2698 /* AppDelegate.m in Sources */,
 				CEE6D8541B0D32B4002E2698 /* main.m in Sources */,

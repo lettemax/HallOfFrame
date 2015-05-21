@@ -99,7 +99,8 @@
                                             </variation>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="imageView" destination="DCF-2L-lWa" id="Swd-Mu-Egh"/>
+                                            <outlet property="pictureView" destination="DCF-2L-lWa" id="Obu-s7-AsN"/>
+                                            <segue destination="HJx-MP-0A6" kind="presentation" id="LTi-Vw-SoX"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -162,6 +163,75 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1482" y="477"/>
+        </scene>
+        <!--Color Buttons View Controller-->
+        <scene sceneID="efL-iw-PXN">
+            <objects>
+                <viewController id="HJx-MP-0A6" customClass="ColorButtonsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zli-xv-fLC"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZeL-LJ-keS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TKo-gV-Ffc">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0q-Vo-h3o">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Blue">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="106" width="368" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onBlueButtonPressed:" destination="HJx-MP-0A6" eventType="touchUpInside" id="MqJ-zv-909"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0F-ut-Z3q">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Green">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="316" width="368" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onGreenButtonPressed:" destination="HJx-MP-0A6" eventType="touchUpInside" id="1i2-1K-qRL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAJ-Oc-odT">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Red">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="211" width="368" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onRedButtonPressed:" destination="HJx-MP-0A6" eventType="touchUpInside" id="zdq-lS-gKF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="f0q-Vo-h3o"/>
+                                <exclude reference="d0F-ut-Z3q"/>
+                                <exclude reference="HAJ-Oc-odT"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="f0q-Vo-h3o"/>
+                                <include reference="d0F-ut-Z3q"/>
+                                <include reference="HAJ-Oc-odT"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HKP-fz-arL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2280" y="477"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="bd8-PI-sXy">
